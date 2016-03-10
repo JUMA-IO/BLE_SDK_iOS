@@ -33,8 +33,6 @@
 		D40BDAFC1C119158004C575B /* JumaDeviceConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = D40BDAEB1C119158004C575B /* JumaDeviceConstant.m */; };
 		D40BDAFD1C119158004C575B /* JumaManager+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = D40BDAEC1C119158004C575B /* JumaManager+Internal.h */; };
 		D40BDAFE1C119158004C575B /* JumaManager+Internal.m in Sources */ = {isa = PBXBuildFile; fileRef = D40BDAED1C119158004C575B /* JumaManager+Internal.m */; };
-		D40BDAFF1C119158004C575B /* JumaNetworkHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = D40BDAEE1C119158004C575B /* JumaNetworkHelper.h */; };
-		D40BDB001C119158004C575B /* JumaNetworkHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D40BDAEF1C119158004C575B /* JumaNetworkHelper.m */; };
 		D40BDB011C119158004C575B /* NSArray+Block.h in Headers */ = {isa = PBXBuildFile; fileRef = D40BDAF01C119158004C575B /* NSArray+Block.h */; };
 		D40BDB021C119158004C575B /* NSArray+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = D40BDAF11C119158004C575B /* NSArray+Block.m */; };
 		D40BDB031C119158004C575B /* NSData+Category.h in Headers */ = {isa = PBXBuildFile; fileRef = D40BDAF21C119158004C575B /* NSData+Category.h */; };
@@ -78,8 +76,6 @@
 		D40BDAEB1C119158004C575B /* JumaDeviceConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JumaDeviceConstant.m; sourceTree = "<group>"; };
 		D40BDAEC1C119158004C575B /* JumaManager+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JumaManager+Internal.h"; sourceTree = "<group>"; };
 		D40BDAED1C119158004C575B /* JumaManager+Internal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JumaManager+Internal.m"; sourceTree = "<group>"; };
-		D40BDAEE1C119158004C575B /* JumaNetworkHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JumaNetworkHelper.h; sourceTree = "<group>"; };
-		D40BDAEF1C119158004C575B /* JumaNetworkHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JumaNetworkHelper.m; sourceTree = "<group>"; };
 		D40BDAF01C119158004C575B /* NSArray+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Block.h"; sourceTree = "<group>"; };
 		D40BDAF11C119158004C575B /* NSArray+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Block.m"; sourceTree = "<group>"; };
 		D40BDAF21C119158004C575B /* NSData+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Category.h"; sourceTree = "<group>"; };
@@ -174,8 +170,6 @@
 				D40BDAEB1C119158004C575B /* JumaDeviceConstant.m */,
 				D40BDAEC1C119158004C575B /* JumaManager+Internal.h */,
 				D40BDAED1C119158004C575B /* JumaManager+Internal.m */,
-				D40BDAEE1C119158004C575B /* JumaNetworkHelper.h */,
-				D40BDAEF1C119158004C575B /* JumaNetworkHelper.m */,
 				D40BDACA1C118DB0004C575B /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -211,7 +205,6 @@
 				D40BDB131C11916B004C575B /* JumaInternalDevice.h in Headers */,
 				D40BDB011C119158004C575B /* NSArray+Block.h in Headers */,
 				D40BDAFB1C119158004C575B /* JumaDeviceConstant.h in Headers */,
-				D40BDAFF1C119158004C575B /* JumaNetworkHelper.h in Headers */,
 				D40BDB031C119158004C575B /* NSData+Category.h in Headers */,
 				D40BDAF91C119158004C575B /* JumaDataSender.h in Headers */,
 				D40BDAF61C119158004C575B /* JumaConfig.h in Headers */,
@@ -340,7 +333,6 @@
 				D40BDAFE1C119158004C575B /* JumaManager+Internal.m in Sources */,
 				D40BDB041C119158004C575B /* NSData+Category.m in Sources */,
 				D40BDB161C11916B004C575B /* JumaManager.m in Sources */,
-				D40BDB001C119158004C575B /* JumaNetworkHelper.m in Sources */,
 				D40BDB081C119161004C575B /* JumaBluetoothSDK.m in Sources */,
 				D40BDB061C119158004C575B /* NSError+Juma.m in Sources */,
 				D40BDAFA1C119158004C575B /* JumaDataSender.m in Sources */,

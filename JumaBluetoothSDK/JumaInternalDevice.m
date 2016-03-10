@@ -127,7 +127,7 @@
     [self readRSSI];
 }
 
-- (void)writeData:(NSData *)data type:(const unsigned char)typeCode {
+- (void)writeData:(NSData *)data type:(UInt8)typeCode {
     
     NSParameterAssert(data != nil);
     NSParameterAssert(data.length < 199);
@@ -143,7 +143,7 @@
     }];
 }
 
-//- (void)writeData:(NSData *)data type:(const unsigned char)typeCode completionHandler:(JumaWriteDataBlock)handler {
+//- (void)writeData:(NSData *)data type:(UInt8)typeCode completionHandler:(JumaWriteDataBlock)handler {
 //    self.writeDataHandler = handler;
 //    [self writeData:data type:typeCode];
 //}

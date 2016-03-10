@@ -94,7 +94,7 @@ NS_CLASS_AVAILABLE(NA, 7_0) @interface JumaDevice : NSObject <NSCopying>
  *
  *  @see              device:didWriteData:
  */
-- (void)writeData:(NSData *)data type:(const unsigned char)typeCode;
+- (void)writeData:(NSData *)data type:(UInt8)typeCode;
 
 /*!
  *  @method setOtaMode

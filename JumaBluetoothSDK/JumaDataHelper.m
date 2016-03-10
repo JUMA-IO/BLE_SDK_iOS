@@ -9,14 +9,14 @@
 #import "JumaDataHelper.h" 
 #import "NSData+Category.h"
 
-const char JumaDataTypeError = -1;
+const SInt8 JumaDataTypeError = -1;
 
 static const JumaDataLength MaxSectionLength = 200; // peripheral 一次最多可以处理 200 个 byte, 超过 200 的部分需要拆分
 static const JumaDataLength MaxSectionContentLength = MaxSectionLength - sizeof(JumaDataType) - sizeof(JumaDataLength);
 static const JumaDataLength MaxPacketLength = 20; // peripheral 一次最多可以接收 20 个 byte
 
 // 每一组固件数据的 index
-typedef unsigned char SectionIndex;
+typedef UInt8 SectionIndex;
 
 @implementation JumaDataHelper
 
