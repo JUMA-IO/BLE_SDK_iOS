@@ -8,7 +8,7 @@
 
 #import "JumaDevice.h"
 
-//typedef void (^JumaWriteDataBlock)(NSData *receivedData, const char typeCode, NSError *error);
+//typedef void (^JumaWriteDataBlock)(NSData *receivedData, const SInt8 typeCode, NSError *error);
 
 @interface JumaDevice ()
 
@@ -30,7 +30,7 @@
 
 - (void)readRSSI {}
 - (void)readRSSI:(JumaReadRssiBlock)handler {}
-- (void)writeData:(NSData *)data type:(const unsigned char)typeCode {}
+- (void)writeData:(NSData *)data type:(UInt8)typeCode {}
 - (void)setOtaMode {};
 - (void)updateFirmware:(NSData *)firmwareData {}
 - (void)updateFirmware:(NSData *)firmwareData completionHandler:(JumaUpdateFirmwareBlock)handler {}
@@ -48,7 +48,7 @@
  *
  *  @see              device:didUpdateData:error:
  */
-//- (void)writeData:(NSData *)data type:(const unsigned char)typeCode completionHandler:(JumaWriteDataBlock)handler;
+//- (void)writeData:(NSData *)data type:(UInt8)typeCode completionHandler:(JumaWriteDataBlock)handler;
 
 - (NSString *)description {
     NSString *stateDesc = nil;

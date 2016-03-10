@@ -43,7 +43,7 @@
 
 
 // 数据头组成 01, 数据类型
-typedef NS_ENUM(unsigned char, JumaDataType) {
+typedef NS_ENUM(UInt8, JumaDataType) {
     /** 用户可以自由选择的数据类型的最大值是 127 */
     JumaDataTypeUserMax = 127,
     /** 用来检查设备是否已经注册 */
@@ -54,15 +54,15 @@ typedef NS_ENUM(unsigned char, JumaDataType) {
     JumaDataType82 = 0x82
 };
 /** 接收数据出现异常/其他无法给出数据类型的情况 */
-extern const char JumaDataTypeError;
+extern const SInt8 JumaDataTypeError;
 
 
 // 数据头组成 02, 数据的长度
-typedef unsigned char JumaDataLength;
+typedef UInt8 JumaDataLength;
 
 
 // 固件数据的子类型, 辅助数据写入的流程控制
-typedef NS_ENUM(unsigned char, JumaDataSubtype) {
+typedef NS_ENUM(UInt8, JumaDataSubtype) {
     JumaDataSubtypeBegin = 0x00, // 开始升级
     JumaDataSubtypeEnd   = 0x01, // 升级结束
     JumaDataSubtypeData  = 0x02, // 数据
