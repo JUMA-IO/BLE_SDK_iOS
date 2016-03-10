@@ -46,8 +46,6 @@
 typedef NS_ENUM(UInt8, JumaDataType) {
     /** 用户可以自由选择的数据类型的最大值是 127 */
     JumaDataTypeUserMax = 127,
-    /** 用来检查设备是否已经注册 */
-    JumaDataType80 = 0x80,
     /** 用来进行固件升级 */
     JumaDataType81 = 0x81,
     /** 用来让设备进入 OTA 模式 */
